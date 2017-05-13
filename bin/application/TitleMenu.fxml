@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.canvas.Canvas?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToolBar?>
@@ -13,5 +14,6 @@
           <Button alignment="TOP_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#buttonClicked" text="Go" />
         </items>
       </ToolBar>
+      <Canvas fx:id="canvas" height="555.0" layoutY="45.0" width="600.0" />
    </children>
 </AnchorPane>
